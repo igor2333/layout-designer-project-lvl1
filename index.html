@@ -18,9 +18,15 @@
       <div>
         <nav class="bg-white ds-inblock">
           <ul class="ul ds-flex">
-            <li class="li al-it-center ds-inblock ds-flex">Преимущества</li>
-            <li class="li al-it-center ds-inblock ds-flex">О ЖК</li>
-            <li class="li al-it-center ds-inblock ds-flex">Место для отдыха</li>
+            <li class="li al-it-center ds-inblock ds-flex">
+              <a class="a-color" href="#advantages">Преимущества</a>
+            </li>
+            <li class="li al-it-center ds-inblock ds-flex">
+              <a class="a-color" href="#about">О ЖК</a>
+            </li>
+            <li class="li al-it-center ds-inblock ds-flex">
+              <a class="a-color" href="#place-for-relax">Место для отдыха</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -36,10 +42,10 @@
           </div>
         </div>
         <div class="disp-flex-center">
-          <a class="button" href="#">Забронировать</a>
+          <a class="button" href="#forms">Забронировать</a>
         </div>
       </div>
-      <section class="section-container">
+      <section id="advantages" class="section-container">
         <article class="inline-container">
           <h2>Уникальный вид</h2>
           <p>
@@ -63,7 +69,7 @@
           </p>
         </article>
       </section>
-      <section class="main-section">
+      <section id="about" class="main-section">
         <article class="main-article">
           <h2>О ЖК «Лунное море»</h2>
           <p>
@@ -81,16 +87,73 @@
           <img class="moon-1" src="images/moon-1.jpg" alt="moon-1" />
         </div>
       </section>
-      <section class="main-section-2">
+      <section id="place-for-relax" class="main-section-2">
         <article class="main-article-2">
-         <h2>Места для отдыха</h2>
-         <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
-         <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
+          <h2>Места для отдыха</h2>
+          <p>
+            Луна обладает всеми условиями для комфортного отдыха от большого
+            города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее
+            кольцо гор всего в 200 километров от вашей квартиры.
+          </p>
+          <p>
+            Дома располагаются в новом районе «Лунные моря». При необходимости
+            есть автобусы до района «Лунный материк».
+          </p>
         </article>
         <div>
-          <img class="moon-2" src="images/moon-2.jpg" alt="moon-2">
+          <img class="moon-2" src="images/moon-2.jpg" alt="moon-2" />
         </div>
       </section>
+      <div id="forms" class="form-bg">
+        <div class="form-post ds-flex">
+          <h2>Оставьте заявку сегодня!</h2>
+          <form>
+            <fieldset class="fieldset">
+              <legend class="legend">
+                <p class="legend"><strong>Параметры квартиры</strong></p>
+              </legend>
+              <div class="select-flex">
+                <p style="font-size: 20px;">Количество комнат:</p>
+                <select class="select-1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="select-flex">
+                <p style="font-size: 20px;">Отделка:</p>
+                <select class="select-2">
+                  <option>Отделка</option>
+                  <option>Отделка2</option>
+                  <option>Отделка3</option>
+                </select>
+              </div>
+            </fieldset>
+          </form>
+          <form class="form-2">
+            <fieldset class="fieldset">
+              <legend class="legend">
+                <p class="legend"><strong>Контактная информация</strong></p>
+              </legend>
+              <div class="input-flex">
+                <p style="font-size: 20px;">Имя:</p>
+                <input class="input" type="text" />
+              </div>
+              <div class="input-flex">
+                <p style="font-size: 20px;">Телефон:</p>
+                <input class="input-2" type="text" />
+              </div>
+              <div class="input-flex input-flex-1">
+                <p style="font-size: 20px;">E-mail:</p>
+                <input class="input-3" type="text" />
+              </div>
+            </fieldset>
+          </form>
+      </div>
+      <div>
+        <a class="last-button" href="#"><strong>Отправить</strong></a>  
+      </div>
+      </div>
     </main>
 
     <footer></footer>

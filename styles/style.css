@@ -7,6 +7,14 @@ body {
   /* padding-top: 60px;  */
 }
 
+a {
+  text-decoration: none;
+}
+
+.a-color {
+  color: #303846;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -130,11 +138,11 @@ li {
 }
 
 .main-section {
-display: flex;
-justify-content: center;
-background: #f7f7f7;
-align-items: center;  
-margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  background: #f7f7f7;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .main-article {
@@ -149,14 +157,116 @@ margin-top: 30px;
 }
 
 .main-section-2 {
-display: flex;
-justify-content: center;
-flex-direction: row-reverse;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .main-article-2 {
-flex-basis: 500px;
-padding-top: 25px;
-padding-bottom: 25px;
+  flex-basis: 500px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+
+.form-bg {
+  background: #f7f7f7;
+}
+
+.form-post {
+  align-items: center;
+  flex-direction: column;
+}
+
+.legend {
+  color: #50ddc2;
+  font-size: 25px;
+}
+
+.fieldset {
+  border: 3px solid;
+  border-color: #50ddc2;
+  display: inline-block;
+  width: 500px;
+}
+
+.select-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.select-1 {
+  margin-left: 100px;
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  padding-top: 3px;
+  padding-left: 2px;
+  
+}
+
+.select-2 {
+  margin-left: 199px;
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  padding-top: 3px;
+  padding-left: 2px;
+}
+
+.form-2 {
+  margin-top: 20px;
+}
+
+.input-flex {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.input {
+  width: 230px;
+  height: 30px;
+  border-radius: 8px;
+  margin-left: 200px;
+  font-size: 18px;
+}
+
+.input-2 {
+  width: 230px;
+  height: 30px;
+  border-radius: 8px;
+  margin-left: 156px;
+  font-size: 18px;
+}
+
+.input-flex-1 {
+  margin-bottom: 30px;
+}
+
+.input-3 {
+  width: 230px;
+  height: 30px;
+  border-radius: 8px;
+  margin-left: 182px;
+  font-size: 18px;
+}
+
+.last-button {
+  color: #50ddc2;
+  display: inline-block;
+  margin-left: 493px;
+  border: 2px solid;
+  border-color: #50ddc2;
+  border-radius: 12px;
+  margin-top: 25px;
+  padding: 15px 25px 15px 25px;
+  font-size: 18px;
+
+}
+
