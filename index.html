@@ -8,34 +8,20 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header class="main-header bg-white ds-flex w-100">
-      <div class="left-logo bg-white ds-flex">
-        <img class="logo" src="images/logo.svg" alt="Logo" />
-        <strong>Лунное море</strong>
+    <header class="bg-white main-header w-100">
+      <div class="block-logo">
+        <img class="head-logo" src="images/logo.svg" alt="logo" />
+        <strong class="logo-txt">Лунное море</strong>
       </div>
-      <div>
-        <nav class="bg-white ds-inblock">
-          <ul class="ul ds-flex">
-            <li class="li al-it-center ds-inblock ds-flex">
-              <a class="a-color" href="#advantages"
-                ><strong>Преимущества</strong></a
-              >
-            </li>
-            <li class="li al-it-center ds-inblock ds-flex">
-              <a class="a-color" href="#about"><strong>О ЖК</strong></a>
-            </li>
-            <li class="li al-it-center ds-inblock ds-flex">
-              <a class="a-color" href="#place-for-relax"
-                ><strong>Место для отдыха</strong></a
-              >
-            </li>
-          </ul>
-        </nav>
+      <div class="header-menu">
+        <a class="a-header" href="#advantages"><strong>Преимущества</strong></a>
+        <a class="a-header" href="#about"><strong>О ЖК</strong></a>
+        <a class="a-header" href="#place-for-relax"><strong>Место для отдыха</strong></a>
       </div>
     </header>
-
     <main>
       <div class="bg-banner">
+        <div class="bg-banner-wrapper">
         <div class="main-logo text-align-center">
           <img class="main-logo-size" src="images/logo.svg" alt="Main-logo" />
           <div class="text-align-center text-logo-main">
@@ -44,9 +30,10 @@
           </div>
         </div>
         <div class="disp-flex-center">
-          <a class="button" href="#forms">Забронировать</a>
+          <a class="main-button btn" href="#forms">Забронировать</a>
         </div>
       </div>
+    </div>
       <section id="advantages" class="section-container">
         <article class="inline-container">
           <h2>Уникальный вид</h2>
@@ -71,6 +58,8 @@
           </p>
         </article>
       </section>
+        <div class="bg-gray">
+          <div class="main-wrapper">
       <section id="about" class="main-section">
         <article class="main-article">
           <h2>О ЖК «Лунное море»</h2>
@@ -89,6 +78,9 @@
           <img class="moon-1" src="images/moon-1.jpg" alt="moon-1" />
         </div>
       </section>
+    </div>
+    </div>
+    <div class="main-wrapper">
       <section id="place-for-relax" class="main-section-2">
         <article class="main-article-2">
           <h2>Места для отдыха</h2>
@@ -106,6 +98,8 @@
           <img class="moon-2" src="images/moon-2.jpg" alt="moon-2" />
         </div>
       </section>
+    </div>
+  </div>
 
       <div class="bg-form">
         <section id="forms" class="section-form">
@@ -151,7 +145,7 @@
                 <input class="input" type="text" />
               </div>
             </fieldset>
-            <a class="last-button" href="#">Отправить</a>
+            <a class="form-button btn" href="#">Отправить</a>
           </form>
         </section>
       </div>
