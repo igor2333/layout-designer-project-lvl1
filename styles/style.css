@@ -34,12 +34,14 @@ a {
   top: 0;
   align-items: center;
   justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
 }
 
 .block-logo {
   display: flex;
   align-items: center;
-  padding-left: 10px;
 }
 
 .head-logo {
@@ -47,13 +49,10 @@ a {
   width: 50px;
 }
 
-.header-menu {
-  padding-right: 10px;
-}
-
 .a-header {
   color: #303846;
-  padding-right: 15px;
+  padding-right: 10px;
+  
 }
 
 .logo-txt {
