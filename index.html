@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header class="main-header ai-center">
+    <header class="main-header ai-center header-sticky">
       <div class="ai-center">
         <img class="head-logo" src="images/logo.svg" alt="logo" />
         <strong>Лунное море</strong>
@@ -32,21 +32,24 @@
             </div>
           </div>
           <div class="jc-center">
-            <a class="main-button marg-top-20 btn" href="#forms"
-              >Забронировать</a
-            >
+            <a class="main-button marg-top-20 btn" href="#forms">Забронировать</a>
           </div>
         </div>
       </div>
-      <section id="features" class="section-container wrapper">
-        <article class="inline-container">
+
+
+
+    <div class="bg-white">
+      <div class="wrapper">
+      <section id="features" class="section-features">
+        <article class="article-features">
           <h2>Уникальный вид</h2>
           <p>
             Вид на космос из вашего окна. Мы построили дома с большими окнами,
             чтобы вы могли наслаждаться метеоритными потоками.
           </p>
         </article>
-        <article class="inline-container">
+        <article class="article-features">
           <h2>Инфраструктура</h2>
           <p>
             Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в
@@ -54,7 +57,7 @@
             сможете провести незабываемые выходные.
           </p>
         </article>
-        <article class="inline-container">
+        <article class="article-features">
           <h2>Близость к Москве</h2>
           <p>
             При небольшой цене мы располагаемся близко к МКАД. Всего 384 000
@@ -62,10 +65,12 @@
           </p>
         </article>
       </section>
+    </div>
+  </div>
       <div class="bg-gray">
         <div class="wrapper">
-          <section id="about" class="main-section jc-center ai-center">
-            <article class="main-article">
+          <section id="about" class=" jc-center ai-center">
+            <article class="article-about">
               <h2>О ЖК «Лунное море»</h2>
               <p>
                 Все чаще жители Москвы предпочитают загородный дом городской
@@ -78,15 +83,14 @@
                 в 380 тысяч километров от Земли.
               </p>
             </article>
-            <div>
-              <img class="moon-1" src="images/moon-1.jpg" alt="moon-1" />
-            </div>
+            <img class="moon-1" src="images/moon-1.jpg" alt="moon-1" />
           </section>
         </div>
       </div>
+      <div class="bg-white">
       <div class="wrapper">
-        <section id="place-for-relax" class="main-section-2">
-          <article class="main-article-2">
+        <section id="place-for-relax" class="section-about-2">
+          <article class="article-about-2">
             <h2>Места для отдыха</h2>
             <p>
               Луна обладает всеми условиями для комфортного отдыха от большого
@@ -98,15 +102,14 @@
               есть автобусы до района «Лунный материк».
             </p>
           </article>
-          <div>
             <img class="moon-2" src="images/moon-2.jpg" alt="moon-2" />
-          </div>
         </section>
       </div>
+    </div>
 
-      <div class="bg-gray jc-center ai-center">
-        <section id="forms" class="section-form">
-          <div class="justify-content marg-top-20 jc-center">
+      <div class="bg-gray-form">
+        <section id="forms" class="section-form wrapper">
+          <div class="">
             <h2><strong>Отправьте заявку сегодня!</strong></h2>
           </div>
           <form class="marg-top-20">
