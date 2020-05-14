@@ -7,6 +7,16 @@ body {
 
 h2 {
   font-size: 26px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+h4 {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
 }
 
 a {
@@ -16,6 +26,16 @@ a {
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.pad-top-btm-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pad-top-btm-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .jc-center {
@@ -64,7 +84,6 @@ a {
 .main-header {
   display: flex;
   height: 60px;
-  top: 0;
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
@@ -75,6 +94,7 @@ a {
 
 .header-sticky {
   position: sticky;
+  top: 0;
 }
 
 .head-logo {
@@ -93,34 +113,23 @@ a {
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
-  height: 400px;
+}
+
+.bg-image-content {
+  color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.tx-al-center {
-  text-align: center;
+.main-logo-h1 {
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .main-logo-size {
   width: 140px;
   height: 140px;
-}
-
-.text-logo-main {
-  color: white;
-  line-height: 5px;
-}
-
-.text-logo-size-1 {
-  font-size: 38px;
-  color: white;
-}
-
-.text-logo-size-2 {
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
 }
 
 .main-button {
@@ -132,13 +141,9 @@ a {
 .section-features {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 250px;
 }
 
 .article-features {
-  display: flex;
-  flex-direction: column;
   flex-basis: 300px;
   line-height: 20px;
 }
@@ -170,18 +175,14 @@ a {
   padding-bottom: 25px;
 }
 
-.bg-gray-form {
-  display: flex;
-  align-items: center;
-  background: #f7f7f7;
-  width: 100%;
-  height: 620px;
-}
-
 .section-form {
  display: flex;
  flex-direction: column;
  align-items: center;
+}
+
+.form-h2 {
+  padding-bottom: 20px;
 }
 
 .main-fieldset {
@@ -239,10 +240,11 @@ a {
 .main-footer {
   background: #303846;
   width: 100%;
-  height: 250px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-content {
@@ -260,7 +262,7 @@ a {
   padding-right: 10px;
 }
 
-.img-footer {
+.img-text-footer {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
