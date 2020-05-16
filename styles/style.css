@@ -28,6 +28,14 @@ a {
   margin: 0 auto;
 }
 
+.ds-flex {
+  display: flex;
+}
+
+.flex-dir-row-reverse {
+  flex-direction: row-reverse;
+}
+
 .pad-top-btm-30 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -38,9 +46,29 @@ a {
   padding-bottom: 40px;
 }
 
+.pad-btm-20 {
+  padding-bottom: 20px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
 .jc-center {
-  display: flex;
   justify-content: center;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.flex-basis-300 {
+  flex-basis: 300px;
+}
+
+.article-about {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .section-bg {
@@ -48,7 +76,6 @@ a {
 }
 
 .ai-center {
-  display: flex;
   align-items: center;
 }
 
@@ -59,6 +86,18 @@ a {
 .bg-gray {
   background: #f7f7f7;
   width: 100%;
+}
+
+.color-white {
+  color: white;
+}
+
+.w-1000 {
+  width: 1000px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .bg-white {
@@ -138,41 +177,16 @@ a {
   display: inline-block;
 }
 
-.section-features {
-  display: flex;
-  justify-content: space-between;
-}
-
-.article-features {
-  flex-basis: 300px;
-  line-height: 20px;
-}
-
-.moon-1 {
+.moon-img-size {
   width: 250px;
-  margin-left: 70px;
 }
 
-.article-about {
-  padding-top: 25px;
-  padding-bottom: 25px;
+.marg-left-80 {
+  margin-left: 80px;
 }
 
-.moon-2 {
-  width: 250px;
+.marg-right-80 {
   margin-right: 80px;
-}
-
-.section-about-2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  align-items: center;
-}
-
-.article-about-2 {
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .section-form {
@@ -181,26 +195,10 @@ a {
  align-items: center;
 }
 
-.form-h2 {
-  padding-bottom: 20px;
-}
-
 .main-fieldset {
   color: #50ddc2;
   border: 3px solid;
   width: 400px;
-}
-
-.main-legend {
-  font-size: 20px;
-}
-
-.form-text {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  font-size: 18px;
-  color: #303846;
 }
 
 .select {
@@ -211,10 +209,7 @@ a {
   border-radius: 10px;
 }
 
-.form-text-2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.form-text {
   font-size: 18px;
   color: #303846;
 }
@@ -245,14 +240,6 @@ a {
   align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  width: 1000px;
 }
 
 .footer-logo {
